@@ -219,8 +219,16 @@ nav {
 
 .pc { display: flex; flex-direction: column; background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--r-lg); overflow: hidden; box-shadow: var(--shadow); transition: transform .3s var(--ease), box-shadow .3s var(--ease); }
 .pc:hover { transform: translateY(-5px); box-shadow: var(--shadow-h); }
-.pc-img { height: 190px; background: #fff; border: none; padding: 16px; width: 100%; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+.pc-img { height: 190px; background: #fff; border: none; padding: 16px; width: 100%; cursor: pointer; display: flex; align-items: center; justify-content: center; position: relative; }
 .pc-img img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.hv-badge {
+  position: absolute; top: 10px; left: 10px; z-index: 1;
+  background: linear-gradient(135deg, var(--brand), var(--sun)); color: #fff;
+  font-size: .6rem; font-weight: 800; letter-spacing: .06em;
+  padding: 4px 9px; border-radius: var(--r-pill);
+  box-shadow: 0 2px 8px rgba(232,85,0,.3);
+}
+body[dir="rtl"] .hv-badge { left: auto; right: 10px; }
 .pc-body { padding: 16px; display: flex; flex-direction: column; flex: 1; gap: 9px; }
 .pc-meta { display: flex; align-items: center; justify-content: space-between; font-size: .6rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--text-muted); }
 .pc-body h3 { font-size: .92rem; font-weight: 800; line-height: 1.35; }

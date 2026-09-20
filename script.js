@@ -45,6 +45,8 @@
     footerQuick:    { en: "Quick Links", ps: "چټک لینکونه", fa: "لینک‌های سریع" },
     footerRange:    { en: "Deye Range", ps: "د Deye لړۍ", fa: "محصولات Deye" },
     footerContact:  { en: "Contact", ps: "اړیکه", fa: "تماس" },
+    highVoltage:    { en: "High Voltage", ps: "لوړ ولتاژ", fa: "ولتاژ بالا" },
+    hvBadge:        { en: "HV", ps: "لوړ ولتاژ", fa: "ولتاژ بالا" },
   };
 
   function cur() {
@@ -129,10 +131,11 @@
   /* ---------- product card + modal ---------- */
   function cardHTML(p, idx, l) {
     var name = tr(p.name, l);
-    var search = [p.name.en, p.name.ps, p.name.fa, p.cat, (p.specs || []).join(" ")].join(" ").toLowerCase();
+    var search = [p.name.en, p.name.ps, p.name.fa, p.cat, (p.specs || []).join(" "), p.hv ? "high voltage hv" : ""].join(" ").toLowerCase();
     return (
-      '<article class="pc" data-cat="' + p.cat + '" data-search="' + esc(search) + '">' +
+      '<article class="pc" data-cat="' + p.cat + '" data-voltage="' + (p.hv ? "hv" : "lv") + '" data-search="' + esc(search) + '">' +
         '<button type="button" class="pc-img" data-idx="' + idx + '" aria-label="' + esc(tr(I18N.viewDetails, l)) + ' — ' + esc(name) + '">' +
+          (p.hv ? '<span class="hv-badge">' + esc(tr(I18N.hvBadge, l)) + '</span>' : "") +
           (p.img ? '<img src="' + p.img + '" alt="" loading="lazy">' : "") +
         "</button>" +
         '<div class="pc-body">' +

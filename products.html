@@ -70,7 +70,7 @@
     <div class="hero-logo"><img src="logos/deye.png" alt="Deye"></div>
     <div class="hero-info">
       <h1>Deye Product <em>Catalog</em></h1>
-      <p>56 genuine Deye hybrid inverters and LiFePO4 batteries — 5-year warranty, up to 10 years on select batteries.</p>
+      <p>56 genuine Deye hybrid inverters and LiFePO4 batteries, including <strong>High-Voltage (HV) three-phase systems</strong> for larger and commercial installations — 5-year warranty, up to 10 years on select batteries.</p>
     </div>
   </div>
   <div class="hero-gap"></div>
@@ -85,6 +85,7 @@
     <button type="button" class="ftab active" data-cat="all" onclick="setCat('all',this)"><i class="fas fa-th-large"></i> <span data-i18n="allProducts">All Products</span></button>
     <button type="button" class="ftab" data-cat="inverter" onclick="setCat('inverter',this)"><i class="fas fa-charging-station"></i> <span data-i18n="hybridInverters">Hybrid Inverters</span></button>
     <button type="button" class="ftab" data-cat="battery" onclick="setCat('battery',this)"><i class="fas fa-battery-full"></i> <span data-i18n="lifepo4Batteries">LiFePO4 Batteries</span></button>
+    <button type="button" class="ftab" data-cat="hv" onclick="setCat('hv',this)"><i class="fas fa-bolt"></i> <span data-i18n="highVoltage">High Voltage</span></button>
   </div>
 </div>
 
@@ -141,7 +142,7 @@
     var cards = document.querySelectorAll('#prodGrid .pc');
     var shown = 0;
     cards.forEach(function(c){
-      var okCat = activeCat === 'all' || c.dataset.cat === activeCat;
+      var okCat = activeCat === 'all' || (activeCat === 'hv' ? c.dataset.voltage === 'hv' : c.dataset.cat === activeCat);
       var okQ = !q || (c.dataset.search || '').indexOf(q) !== -1;
       var show = okCat && okQ;
       c.style.display = show ? '' : 'none';
@@ -167,7 +168,7 @@
   };
   document.addEventListener('DOMContentLoaded', function(){
     var hash = (location.hash || '').replace('#','');
-    if (hash === 'inverter' || hash === 'battery') {
+    if (hash === 'inverter' || hash === 'battery' || hash === 'hv') {
       window.setCat(hash, document.querySelector('.ftab[data-cat="' + hash + '"]'));
     } else {
       apply();

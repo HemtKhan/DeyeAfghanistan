@@ -253,8 +253,8 @@ window.DEYE_PRODUCTS = [
       fa: ["ترکیب مصون LiFePO4 (بدون کبالت)", "بیش از ۶۰۰۰ سایکل شارژ — بیش از ۱۰ سال استفادهٔ روزانه", "BMS داخلی با محافظت‌های کامل", "قابل گسترش — اتصال چند واحد به صورت موازی", "هماهنگی کامل با انورترهای هایبرید Deye"] }
   },
   {
-    cat: "battery", img: "products/deye/batt-bos-g-pro.jpg", popular: false,
-    specs: ["LiFePO4", "6000+ Cycles"],
+    cat: "battery", hv: true, img: "products/deye/batt-bos-g-pro.jpg", popular: false,
+    specs: ["High Voltage", "LiFePO4", "6000+ Cycles"],
     name: {
       en: "Deye BOS-G Pro — LiFePO4 Battery",
       ps: "Deye BOS-G Pro — لیتیم بیټرۍ",
@@ -270,8 +270,8 @@ window.DEYE_PRODUCTS = [
       fa: ["ترکیب مصون LiFePO4 (بدون کبالت)", "بیش از ۶۰۰۰ سایکل شارژ — بیش از ۱۰ سال استفادهٔ روزانه", "BMS داخلی با محافظت‌های کامل", "قابل گسترش — اتصال چند واحد به صورت موازی", "هماهنگی کامل با انورترهای هایبرید Deye"] }
   },
   {
-    cat: "battery", img: "products/deye/batt-bos-gl-bos-gh.jpg", popular: false,
-    specs: ["61kWh", "LiFePO4", "C&I / Utility"],
+    cat: "battery", hv: true, img: "products/deye/batt-bos-gl-bos-gh.jpg", popular: false,
+    specs: ["61kWh", "High Voltage (153.6–614.4V)", "LiFePO4", "C&I / Utility"],
     name: {
       en: "Deye BOS-GL & BOS-GH Series — C&I Energy Storage",
       ps: "Deye BOS-GL & BOS-GH Series — تجارتي انرژي زیرمه",
@@ -508,8 +508,8 @@ window.DEYE_PRODUCTS = [
       fa: ["اتصال سه‌فاز به شبکه برای بام‌های تجارتی", "چند ردیاب MPPT برای بام‌های پیچیده", "محافظت‌های داخلی: سرج، ضدجزیره‌ای، PID", "نظارت گروهی از راه دور با SolarmanPV"] }
   },
   {
-    cat: "inverter", img: "products/deye/sun-29-9-30-35k-sg01hp3-eu-bm3.png", popular: false,
-    specs: ["29.9\u201350kW", "Hybrid", "WiFi App"],
+    cat: "inverter", hv: true, img: "products/deye/sun-29-9-30-35k-sg01hp3-eu-bm3.png", popular: false,
+    specs: ["29.9\u201350kW", "Hybrid", "High-Voltage Battery (150\u2013800V)", "WiFi App"],
     name: {
       en: "Deye SUN-29.9/30/35/40/50K-SG01HP3-EU-BM3 — Three-Phase Hybrid Inverter",
       ps: "Deye SUN-29.9/30/35/40/50K-SG01HP3-EU-BM3 — درې فازه هایبرید انورټر",
@@ -746,8 +746,8 @@ window.DEYE_PRODUCTS = [
       fa: ["خروجی اسپلیت‌فاز 120/240 ولت", "تعویض بدون وقفه به برق پشتیبان بتری", "ورودی جنراتور با استارت اتومات", "نظارت با اپلیکیشن"] }
   },
   {
-    cat: "inverter", img: "products/deye/sun-5-6-8-10-12-15-20-25k-sg01hp3-eu-am2.png", popular: false,
-    specs: ["5\u201325kW", "Hybrid", "WiFi App"],
+    cat: "inverter", hv: true, img: "products/deye/sun-5-6-8-10-12-15-20-25k-sg01hp3-eu-am2.png", popular: false,
+    specs: ["5\u201325kW", "Hybrid", "High-Voltage Battery (150\u2013800V)", "WiFi App"],
     name: {
       en: "Deye SUN-(5-25)K-SG01HP3-EU — Three-Phase Hybrid Inverter",
       ps: "Deye SUN-(5-25)K-SG01HP3-EU — درې فازه هایبرید انورټر",
@@ -814,8 +814,8 @@ window.DEYE_PRODUCTS = [
       fa: ["اتصال سه‌فاز به شبکه برای بام‌های تجارتی", "چند ردیاب MPPT برای بام‌های پیچیده", "محافظت‌های داخلی: سرج، ضدجزیره‌ای، PID", "نظارت گروهی از راه دور با SolarmanPV"] }
   },
   {
-    cat: "inverter", img: "products/deye/sun-60-70-75-80k-sg02hp3-eu-em6-three-phase-hybr.png", popular: false,
-    specs: ["60\u201380kW", "Hybrid", "WiFi App"],
+    cat: "inverter", hv: true, img: "products/deye/sun-60-70-75-80k-sg02hp3-eu-em6-three-phase-hybr.png", popular: false,
+    specs: ["60\u201380kW", "Hybrid", "High-Voltage Battery (150\u2013800V)", "WiFi App"],
     name: {
       en: "Deye SUN-60/70/75/80K-SG02HP3-EU-EM6 — Three-Phase Hybrid Inverter",
       ps: "Deye SUN-60/70/75/80K-SG02HP3-EU-EM6 — درې فازه هایبرید انورټر",
