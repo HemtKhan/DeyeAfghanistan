@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Deye Product Catalog — 56 Inverters &amp; Batteries | Deye Afghanistan</title>
+  <meta name="description" content="Browse all 56 genuine Deye hybrid inverters (3–80kW) and Deye LiFePO4 batteries sold in Afghanistan. Filter by category, check specs, and WhatsApp us for today's price.">
+  <meta name="theme-color" content="#e85500">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..900&family=Vazirmatn:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Deye Afghanistan">
+  <meta property="og:title" content="Deye Product Catalog — 56 Inverters &amp; Batteries | Deye Afghanistan">
+  <meta property="og:description" content="Browse all 56 genuine Deye hybrid inverters and LiFePO4 batteries sold in Afghanistan.">
+</head>
+<body>
+
+<div class="topbar">
+  <a href="https://wa.me/93707077675" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> 070 707 7675</a>
+  <div class="top-langs" aria-label="Language">
+    <i class="fas fa-globe"></i>
+    <button class="tl-btn" data-lang="en" onclick="setLang('en')">English</button>
+    <button class="tl-btn" data-lang="ps" onclick="setLang('ps')">پښتو</button>
+    <button class="tl-btn" data-lang="fa" onclick="setLang('fa')">دری</button>
+  </div>
+</div>
+
+<nav id="mainNav">
+  <a href="index.html" class="navlogo" aria-label="Deye Afghanistan — Home">
+    <span class="mark"><i class="fas fa-bolt"></i></span>
+    <b><span>Deye</span> Afghanistan</b>
+  </a>
+  <ul class="nav-links" id="menu">
+    <li><a href="index.html" data-i18n="navHome">Home</a></li>
+    <li><a href="products.html" class="active" data-i18n="navProducts">Products</a></li>
+    <li><a href="about.html" data-i18n="navAbout">About Deye</a></li>
+    <li><a href="contact.html" data-i18n="navContact">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+    <button class="lang-btn" data-lang="ps" onclick="setLang('ps')">پښتو</button>
+    <button class="lang-btn" data-lang="fa" onclick="setLang('fa')">دری</button>
+    <button class="theme-btn" onclick="toggleTheme()"><i class="fas fa-moon" id="themeIcon"></i></button>
+    <button class="wa-btn" onclick="window.open('https://wa.me/93707077675','_blank')"><i class="fab fa-whatsapp"></i> <span data-i18n="whatsapp">WhatsApp</span></button>
+    <button class="hamburger" id="hamburger" onclick="toggleMobileMenu()" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a class="mm-link" href="index.html" data-i18n="navHome">Home</a>
+  <a class="mm-link active" href="products.html" data-i18n="navProducts">Products</a>
+  <a class="mm-link" href="about.html" data-i18n="navAbout">About Deye</a>
+  <a class="mm-link" href="contact.html" data-i18n="navContact">Contact</a>
+  <div class="mm-bottom">
+    <div class="mm-langs">
+      <button class="mm-lang-btn" onclick="setLang('en');toggleMobileMenu()">EN</button>
+      <button class="mm-lang-btn" onclick="setLang('ps');toggleMobileMenu()">پښتو</button>
+      <button class="mm-lang-btn" onclick="setLang('fa');toggleMobileMenu()">دری</button>
+    </div>
+    <button class="mm-wa-btn" onclick="window.open('https://wa.me/93707077675','_blank')"><i class="fab fa-whatsapp"></i> <span data-i18n="whatsappUs">WhatsApp Us</span></button>
+  </div>
+</div>
+
+<div class="hero compact">
+  <div class="hero-inner" dir="ltr">
+    <div class="hero-logo"><img src="logos/deye.png" alt="Deye"></div>
+    <div class="hero-info">
+      <h1>Deye Product <em>Catalog</em></h1>
+      <p>56 genuine Deye hybrid inverters and LiFePO4 batteries — 5-year warranty, up to 10 years on select batteries.</p>
+    </div>
+  </div>
+  <div class="hero-gap"></div>
+</div>
+
+<div class="section tight" style="padding-bottom:0;">
+  <div class="search-wrap">
+    <i class="fas fa-magnifying-glass"></i>
+    <input type="text" id="prodSearch" data-i18n-ph="searchPh" placeholder="Search Deye models (e.g. SG06, SE-F16, 12kW)" aria-label="Search Deye products">
+  </div>
+  <div class="ftabs" id="ftabs">
+    <button type="button" class="ftab active" data-cat="all" onclick="setCat('all',this)"><i class="fas fa-th-large"></i> <span data-i18n="allProducts">All Products</span></button>
+    <button type="button" class="ftab" data-cat="inverter" onclick="setCat('inverter',this)"><i class="fas fa-charging-station"></i> <span data-i18n="hybridInverters">Hybrid Inverters</span></button>
+    <button type="button" class="ftab" data-cat="battery" onclick="setCat('battery',this)"><i class="fas fa-battery-full"></i> <span data-i18n="lifepo4Batteries">LiFePO4 Batteries</span></button>
+  </div>
+</div>
+
+<div class="section">
+  <div class="prod-grid" id="prodGrid"></div>
+  <p class="empty-note" id="emptyNote" data-i18n="noResults" hidden>No models match your search — try a different term.</p>
+</div>
+
+<div class="section" data-reveal>
+  <div class="cta-band" dir="ltr">
+    <h2>Can't find the right model?</h2>
+    <p>Tell us your appliance load or building type on WhatsApp and we'll help you pick the right Deye inverter and battery size.</p>
+    <button class="btn" onclick="window.open('https://wa.me/93707077675','_blank')"><i class="fab fa-whatsapp"></i> <span data-i18n="chatWhatsapp">Chat on WhatsApp</span></button>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-col">
+      <h4>Deye Afghanistan</h4>
+      <p>Genuine Deye hybrid inverters &amp; LiFePO4 batteries in Kabul, Afghanistan.</p>
+    </div>
+    <div class="footer-col">
+      <h4 data-i18n="footerQuick">Quick Links</h4>
+      <a href="index.html" data-i18n="navHome">Home</a>
+      <a href="products.html" data-i18n="navProducts">Products</a>
+      <a href="about.html" data-i18n="navAbout">About Deye</a>
+      <a href="contact.html" data-i18n="navContact">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4 data-i18n="footerRange">Deye Range</h4>
+      <p>Hybrid Inverters 3–80kW</p>
+      <p>LiFePO4 Batteries</p>
+      <p>SolarmanPV Monitoring</p>
+    </div>
+    <div class="footer-col">
+      <h4 data-i18n="footerContact">Contact</h4>
+      <p><a href="tel:+93707077675"><i class="fas fa-phone"></i> 070 707 7675</a></p>
+      <p><i class="fas fa-location-dot"></i> Kabul, Afghanistan</p>
+    </div>
+  </div>
+  <hr>
+  <div class="copyright">© 2026 Deye Afghanistan</div>
+</footer>
+
+<script src="script.js"></script>
+<script src="products/deye/products.js"></script>
+<script>
+(function(){
+  var activeCat = 'all';
+  function apply(){
+    var input = document.getElementById('prodSearch');
+    var q = input ? input.value.trim().toLowerCase() : '';
+    var cards = document.querySelectorAll('#prodGrid .pc');
+    var shown = 0;
+    cards.forEach(function(c){
+      var okCat = activeCat === 'all' || c.dataset.cat === activeCat;
+      var okQ = !q || (c.dataset.search || '').indexOf(q) !== -1;
+      var show = okCat && okQ;
+      c.style.display = show ? '' : 'none';
+      if (show) shown++;
+    });
+    document.querySelectorAll('#prodGrid .cat-head').forEach(function(h){
+      var el = h.nextElementSibling, any = false;
+      while (el && !el.classList.contains('cat-head')) {
+        if (el.classList.contains('pc') && el.style.display !== 'none') any = true;
+        el = el.nextElementSibling;
+      }
+      h.style.display = any ? '' : 'none';
+    });
+    var empty = document.getElementById('emptyNote');
+    if (empty) empty.hidden = shown !== 0;
+  }
+  window.applyProductFilter = apply;
+  window.setCat = function(cat, btn){
+    activeCat = cat;
+    document.querySelectorAll('.ftab').forEach(function(b){ b.classList.remove('active'); });
+    if (btn) btn.classList.add('active');
+    apply();
+  };
+  document.addEventListener('DOMContentLoaded', function(){
+    var hash = (location.hash || '').replace('#','');
+    if (hash === 'inverter' || hash === 'battery') {
+      window.setCat(hash, document.querySelector('.ftab[data-cat="' + hash + '"]'));
+    } else {
+      apply();
+    }
+    var input = document.getElementById('prodSearch');
+    if (input) input.addEventListener('input', apply);
+  });
+})();
+</script>
+</body>
+</html>
