@@ -47,6 +47,121 @@
     footerContact:  { en: "Contact", ps: "اړیکه", fa: "تماس" },
     highVoltage:    { en: "High Voltage", ps: "لوړ ولتاژ", fa: "ولتاژ بالا" },
     hvBadge:        { en: "HV", ps: "لوړ ولتاژ", fa: "ولتاژ بالا" },
+
+    /* shared */
+    kabulAfghanistan:  { en: "Kabul, Afghanistan", ps: "کابل، افغانستان", fa: "کابل، افغانستان" },
+    genuineDeyeProducts:{ en: "Genuine Deye Products", ps: "اصلي Deye محصولات", fa: "محصولات اصلی Deye" },
+    warranty510:       { en: "5–10 Year Warranty", ps: "۵–۱۰ کلن ضمانت", fa: "۵–۱۰ سال ضمانت" },
+    whatsappSupportLabel:{ en: "WhatsApp Support", ps: "د واټس اپ ملاتړ", fa: "پشتیبانی واتساپ" },
+    brandFooterName:   { en: "Deye Afghanistan", ps: "Deye افغانستان", fa: "Deye افغانستان" },
+    footerBlurb:       { en: "Genuine Deye hybrid inverters &amp; LiFePO4 batteries in Kabul, Afghanistan.", ps: "اصلي Deye هایبرید انورټرونه او LiFePO4 بیټرۍ په کابل، افغانستان کې.", fa: "انورترهای هایبرید اصلی Deye و بطری‌های LiFePO4 در کابل، افغانستان." },
+    footerHybridRange: { en: "Hybrid Inverters 3–80kW", ps: "هایبرید انورټرونه ۳–۸۰ کیلوواټ", fa: "انورترهای هایبرید ۳–۸۰ کیلووات" },
+    footerBatteryRange:{ en: "LiFePO4 Batteries", ps: "LiFePO4 بیټرۍ", fa: "بطری‌های LiFePO4" },
+    footerMonitoring:  { en: "SolarmanPV Monitoring", ps: "د SolarmanPV څارنه", fa: "مانیتورینگ SolarmanPV" },
+
+    /* index.html */
+    homeHeroP: { en: "Genuine Deye hybrid inverters and LiFePO4 lithium batteries — sold in Kabul with a 5-year warranty, up to 10 years on select battery models.",
+      ps: "اصلي Deye هایبرید انورټرونه او LiFePO4 لیتیم بیټرۍ — په کابل کې د ۵ کلن ضمانت سره پلورل کیږي، د ځینو بیټرۍ ماډلونو لپاره تر ۱۰ کلونو پورې.",
+      fa: "انورترهای هایبرید اصلی Deye و بطری‌های لیتیوم LiFePO4 — در کابل با ۵ سال ضمانت فروخته می‌شود، تا ۱۰ سال برای برخی مدل‌های بطری." },
+    tagSinglePhase: { en: "Single-Phase 3–16kW", ps: "یو فاز ۳–۱۶ کیلوواټ", fa: "تک‌فاز ۳–۱۶ کیلووات" },
+    tagThreePhase:  { en: "Three-Phase 8–80kW", ps: "درې فاز ۸–۸۰ کیلوواټ", fa: "سه‌فاز ۸–۸۰ کیلووات" },
+    tagSolarman:    { en: "SolarmanPV App", ps: "SolarmanPV ایپ", fa: "اپلیکیشن SolarmanPV" },
+    statGridSwitching:  { en: "Grid Switching", ps: "د ګرېډ اړول", fa: "سوییچ برق شهری" },
+    statPeakEfficiency: { en: "Peak Efficiency", ps: "اعظمي موثریت", fa: "حداکثر بازدهی" },
+    statInverterRange:  { en: "Inverter Range", ps: "د انورټر لړۍ", fa: "محدوده انورتر" },
+    statBatteryCycles:  { en: "Battery Cycles", ps: "د بیټرۍ سایکلونه", fa: "سایکل‌های بطری" },
+    statModelsCatalog:  { en: "Models in Catalog", ps: "ماډلونه په کتالوګ کې", fa: "مدل‌ها در کاتالوگ" },
+    catInverterDesc: { en: "Single-phase and three-phase hybrid inverters, 3kW to 80kW, with native LiFePO4 support and 4ms automatic grid-outage switching.",
+      ps: "یو فاز او درې فاز هایبرید انورټرونه، ۳ تر ۸۰ کیلوواټ، د LiFePO4 مستقیم ملاتړ او ۴ میلي ثانیې اتومات د ګرېډ بندښت اړولو سره.",
+      fa: "انورترهای هایبرید تک‌فاز و سه‌فاز، ۳ تا ۸۰ کیلووات، با پشتیبانی مستقیم LiFePO4 و سویچ خودکار ۴ میلی‌ثانیه‌ای قطعی برق." },
+    catBatteryDesc: { en: "Stackable 48V lithium battery modules with a built-in BMS and 6000+ charge/discharge cycles.",
+      ps: "د یوځای کیدو وړ 48V لیتیم بیټرۍ ماډلونه د دنننی BMS او ۶۰۰۰+ چارج/ډسچارج سایکلونو سره.",
+      fa: "ماژول‌های بطری لیتیومی 48V قابل‌استک با BMS داخلی و بیش از ۶۰۰۰ سایکل شارژ/دشارژ." },
+    catFullDesc: { en: "Every Deye inverter and battery we sell, in one place, with specs and warranty details for each.",
+      ps: "هر Deye انورټر او بیټرۍ چې موږ یې پلورو، په یو ځای کې، د هر یو د مشخصاتو او ضمانت توضیحاتو سره.",
+      fa: "تمام انورترها و بطری‌های Deye که می‌فروشیم، در یک‌جا، با مشخصات و جزئیات ضمانت هر کدام." },
+    fullCatalogTitle: { en: "Full Catalog", ps: "بشپړ کتالوګ", fa: "کاتالوگ کامل" },
+    modelsCount:      { en: "models", ps: "ماډلونه", fa: "مدل" },
+    modelsTotalCount: { en: "models total", ps: "ټول ماډلونه", fa: "مجموع مدل‌ها" },
+    browseInverters:  { en: "Browse Inverters", ps: "انورټرونه وګورئ", fa: "مشاهده انورترها" },
+    browseBatteries:  { en: "Browse Batteries", ps: "بیټرۍ وګورئ", fa: "مشاهده بطری‌ها" },
+    viewAllModels:    { en: "View All", ps: "ټول وګورئ", fa: "مشاهده همه" },
+    popularPicksLabel:  { en: "Popular Picks", ps: "مشهور ټاکنې", fa: "محبوب‌ترین‌ها" },
+    popularModelsTitle: { en: "Popular Deye Models", ps: "مشهور Deye ماډلونه", fa: "مدل‌های محبوب Deye" },
+    whyDeyeLabel: { en: "Why Deye", ps: "ولې Deye", fa: "چرا Deye" },
+    whyDeyeTitle: { en: "Built for Afghanistan's Grid", ps: "د افغانستان د برېښنا شبکې لپاره جوړ شوی", fa: "ساخته‌شده برای شبکه برق افغانستان" },
+    why1Title: { en: "4ms Automatic Switching", ps: "۴ میلي ثانیې اتومات اړول", fa: "سویچ خودکار ۴ میلی‌ثانیه‌ای" },
+    why1Desc:  { en: "Deye hybrid inverters detect a grid outage and switch to battery power in as little as 4 milliseconds — most households never notice the interruption.",
+      ps: "Deye هایبرید انورټرونه د ګرېډ بندښت معلوموي او یوازې په ۴ میلي ثانیو کې بیټرۍ برېښنا ته اړوي — ډیری کورنۍ دا وقفه هیڅکله نه احساسوي.",
+      fa: "انورترهای هایبرید Deye قطعی برق را تشخیص داده و تنها در ۴ میلی‌ثانیه به برق بطری سویچ می‌کنند — اکثر خانه‌ها اصلاً متوجه این وقفه نمی‌شوند." },
+    why2Title: { en: "98.6% Peak Efficiency", ps: "۹۸.۶٪ اعظمي موثریت", fa: "۹۸.۶٪ حداکثر بازدهی" },
+    why2Desc:  { en: "SiC MOSFET power electronics keep conversion losses low, so more of the energy your panels generate actually reaches your home.",
+      ps: "SiC MOSFET برېښنایی برخې د بدلون تلفات ټیټ ساتي، نو ستاسو د پنلونو تولید شوې ډیره انرژي ستاسو کور ته رسیږي.",
+      fa: "الکترونیک قدرت SiC MOSFET تلفات تبدیل را پایین نگه می‌دارد، بنابراین انرژی بیشتری که پنل‌های شما تولید می‌کنند واقعاً به خانه شما می‌رسد." },
+    why3Title: { en: "Native LiFePO4 Support", ps: "مستقیم LiFePO4 ملاتړ", fa: "پشتیبانی مستقیم LiFePO4" },
+    why3Desc:  { en: "Built from the ground up for 48V lithium batteries — no separate charge controller needed.",
+      ps: "د 48V لیتیم بیټریو لپاره له بنسټه جوړ شوی — جلا چارج کنټرولر ته اړتیا نشته.",
+      fa: "از پایه برای بطری‌های لیتیومی 48V ساخته شده — نیازی به کنترلر شارژ جداگانه نیست." },
+    why4Title: { en: "Monitor From Your Phone", ps: "د خپل ګرځنده څخه څارنه", fa: "مانیتور از موبایل شما" },
+    why4Desc:  { en: "Every Deye hybrid inverter connects to the SolarmanPV app, so you can check generation, battery level and consumption in real time.",
+      ps: "هر Deye هایبرید انورټر د SolarmanPV ایپ سره نښلي، نو تاسو کولی شئ تولید، بیټرۍ کچه او مصرف په حقیقي وخت کې وګورئ.",
+      fa: "هر انورتر هایبرید Deye به اپلیکیشن SolarmanPV وصل می‌شود، بنابراین می‌توانید تولید، سطح بطری و مصرف را به صورت زنده بررسی کنید." },
+    why5Title: { en: "Global Manufacturing Scale", ps: "نړیوال تولیدي کچه", fa: "مقیاس تولید جهانی" },
+    why5Desc:  { en: "Deye has built hybrid inverters since 2007, listed on the Shanghai Stock Exchange in 2021, from a 600,000㎡ factory in Ningbo, China.",
+      ps: "Deye له ۲۰۰۷ راهیسې هایبرید انورټرونه جوړوي، په ۲۰۲۱ کې د شانګهای سټاک ایکسچینج کې لیست شوی، د چین د نینګبو په ۶۰۰,۰۰۰ متر مربع فابریکه کې.",
+      fa: "Deye از سال ۲۰۰۷ انورترهای هایبرید تولید می‌کند، در سال ۲۰۲۱ در بورس شانگهای ثبت شده، از یک کارخانه ۶۰۰,۰۰۰ متر مربعی در نینگبو چین." },
+    why6Title: { en: "5–10 Year Warranty", ps: "۵–۱۰ کلن ضمانت", fa: "۵–۱۰ سال ضمانت" },
+    why6Desc:  { en: "Every Deye inverter and battery we sell carries a 5-year warranty — up to 10 years on select battery models.",
+      ps: "هر Deye انورټر او بیټرۍ چې موږ یې پلورو ۵ کلن ضمانت لري — د ځینو بیټرۍ ماډلونو لپاره تر ۱۰ کلونو پورې.",
+      fa: "هر انورتر و بطری Deye که می‌فروشیم ۵ سال ضمانت دارد — تا ۱۰ سال برای برخی مدل‌های بطری." },
+    homeCtaH2: { en: "Ready to go solar with Deye?", ps: "د Deye سره لمریز کیدو ته چمتو یاست؟", fa: "آماده استفاده از انرژی سولار با Deye هستید؟" },
+    homeCtaP:  { en: "Message us on WhatsApp for today's price and a free system recommendation.",
+      ps: "د نننۍ بیې او وړیا سیسټم وړاندیز لپاره موږ ته په واټس اپ کې پیغام راولېږئ.",
+      fa: "برای قیمت امروز و پیشنهاد رایگان سیستم، در واتساپ برای ما پیام بدهید." },
+
+    /* products.html */
+    productsHeroP: { en: "56 genuine Deye hybrid inverters and LiFePO4 batteries, including <strong>High-Voltage (HV) three-phase systems</strong> for larger and commercial installations — 5-year warranty, up to 10 years on select batteries.",
+      ps: "۵۶ اصلي Deye هایبرید انورټرونه او LiFePO4 بیټرۍ، پشمول د <strong>لوړ ولتاژ (HV) درې فاز سیسټمونو</strong> د لویو او سوداګریزو نصبونو لپاره — ۵ کلن ضمانت، د ځینو بیټریو لپاره تر ۱۰ کلونو پورې.",
+      fa: "۵۶ انورتر هایبرید و بطری LiFePO4 اصلی Deye، شامل <strong>سیستم‌های سه‌فاز ولتاژ بالا (HV)</strong> برای نصب‌های بزرگ و تجاری — ۵ سال ضمانت، تا ۱۰ سال برای برخی بطری‌ها." },
+    productsCantFindH2: { en: "Can't find the right model?", ps: "سم ماډل نه مومئ؟", fa: "مدل مناسب را پیدا نمی‌کنید؟" },
+    productsCantFindP:  { en: "Tell us your appliance load or building type on WhatsApp and we'll help you pick the right Deye inverter and battery size.",
+      ps: "خپل د وسایلو بار یا د ودانۍ ډول موږ ته په واټس اپ کې ووایاست، موږ به ستاسو سره د سم Deye انورټر او بیټرۍ اندازې په ټاکلو کې مرسته وکړو.",
+      fa: "بار وسایل یا نوع ساختمان خود را در واتساپ به ما بگویید، ما به شما در انتخاب اندازه مناسب انورتر و بطری Deye کمک می‌کنیم." },
+
+    /* about.html */
+    aboutHeroP: { en: "The manufacturer, the technology behind a hybrid inverter, and warranty terms on what we sell.",
+      ps: "تولیدونکی، د هایبرید انورټر شاته ټیکنالوژي، او د هغه څه چې موږ یې پلورو د ضمانت شرایط.",
+      fa: "تولیدکننده، فناوری پشت یک انورتر هایبرید، و شرایط ضمانت آنچه می‌فروشیم." },
+    aboutCtaH2: { en: "Have a question about your building?", ps: "ستاسو د ودانۍ په اړه پوښتنه لرئ؟", fa: "سوالی درباره ساختمان خود دارید؟" },
+    aboutCtaP:  { en: "Send us a photo of your meter box or appliance list on WhatsApp and we'll help you pick the right Deye setup.",
+      ps: "د خپل میتر بکس عکس یا د وسایلو لیست موږ ته په واټس اپ کې واستوئ، موږ به ستاسو سره د سم Deye تنظیم په ټاکلو کې مرسته وکړو.",
+      fa: "عکس جعبه میتر یا لیست وسایل خود را در واتساپ برای ما بفرستید، ما به شما در انتخاب تنظیمات مناسب Deye کمک می‌کنیم." },
+
+    /* contact.html */
+    contactHeroP: { en: "WhatsApp is the fastest way to reach us — message us directly or use the form below to open a pre-filled WhatsApp chat.",
+      ps: "واټس اپ ستاسو د موږ سره اړیکې لپاره ترټولو چټک لاره ده — مستقیم موږ ته پیغام راولېږئ یا لاندې فورمه وکاروئ ترڅو مخکې ډک شوی واټس اپ چیټ خلاص کړئ.",
+      fa: "واتساپ سریع‌ترین راه برای تماس با ماست — مستقیماً برای ما پیام بدهید یا از فرم زیر برای باز کردن یک چت واتساپ از پیش پر شده استفاده کنید." },
+    cardWhatsappUs: { en: "WhatsApp Us", ps: "موږ ته واټس اپ وکړئ", fa: "در واتساپ به ما پیام دهید" },
+    cardCallUs:     { en: "Call Us", ps: "موږ ته زنګ ووهئ", fa: "با ما تماس بگیرید" },
+    cardLocation:   { en: "Location", ps: "موقعیت", fa: "موقعیت" },
+    sendMessageH2:  { en: "Send Us a Message", ps: "موږ ته پیغام راولېږئ", fa: "برای ما پیام بفرستید" },
+    sendMessageSub: { en: "Fill this in and we'll open WhatsApp with your message ready to send — nothing is stored or emailed, it goes straight to our WhatsApp.",
+      ps: "دا ډک کړئ، موږ به واټس اپ ستاسو د پیغام سره چمتو خلاص کړو — هیڅ شی نه زیرمه کیږي او نه ایمیل کیږي، مستقیم زموږ واټس اپ ته ځي.",
+      fa: "این را پر کنید تا واتساپ را با پیام آماده شما باز کنیم — چیزی ذخیره یا ایمیل نمی‌شود، مستقیم به واتساپ ما می‌رود." },
+    fullNameLabel: { en: "Full Name", ps: "بشپړ نوم", fa: "نام کامل" },
+    fullNamePh:    { en: "Enter your full name", ps: "خپل بشپړ نوم ولیکئ", fa: "نام کامل خود را وارد کنید" },
+    yourPhoneLabel:{ en: "Your Phone Number", ps: "ستاسو د تلیفون شمېره", fa: "شماره تلفن شما" },
+    phonePh:       { en: "Enter your phone number", ps: "خپله د تلیفون شمېره ولیکئ", fa: "شماره تلفن خود را وارد کنید" },
+    subjectLabel:  { en: "Subject", ps: "موضوع", fa: "موضوع" },
+    subjInverter:  { en: "Deye Inverter Inquiry", ps: "د Deye انورټر پوښتنه", fa: "استعلام انورتر Deye" },
+    subjBattery:   { en: "Deye Battery Inquiry", ps: "د Deye بیټرۍ پوښتنه", fa: "استعلام بطری Deye" },
+    subjQuote:     { en: "Get a Quote", ps: "بیه واخلئ", fa: "استعلام قیمت" },
+    subjWarranty:  { en: "Warranty Question", ps: "د ضمانت پوښتنه", fa: "سوال ضمانت" },
+    subjOther:     { en: "Other", ps: "نور", fa: "سایر" },
+    messageLabel:  { en: "Message", ps: "پیغام", fa: "پیام" },
+    messagePh:     { en: "Tell us about your building and appliance load...", ps: "زموږ سره د خپلې ودانۍ او د وسایلو بار په اړه ووایاست...", fa: "درباره ساختمان و بار وسایل خود به ما بگویید..." },
+    formNote:      { en: "This opens WhatsApp with your details filled in — you send it yourself from there.", ps: "دا به واټس اپ ستاسو د معلوماتو سره ډک خلاص کړي — تاسو یې له هغه ځایه استوئ.", fa: "این واتساپ را با جزئیات شما پر شده باز می‌کند — شما خودتان از آنجا ارسال می‌کنید." },
+    openWhatsappSubmit: { en: "Open WhatsApp with This Message", ps: "د دې پیغام سره واټس اپ خلاص کړئ", fa: "باز کردن واتساپ با این پیام" },
   };
 
   function cur() {
@@ -63,7 +178,9 @@
   function applyI18n(l) {
     document.querySelectorAll("[data-i18n]").forEach(function (el) {
       var d = I18N[el.getAttribute("data-i18n")];
-      if (d) el.textContent = tr(d, l);
+      if (!d) return;
+      if (el.tagName === "OPTION") el.textContent = tr(d, l);
+      else el.innerHTML = tr(d, l);
     });
     document.querySelectorAll("[data-i18n-ph]").forEach(function (el) {
       var d = I18N[el.getAttribute("data-i18n-ph")];
@@ -213,6 +330,7 @@
       var items = [];
       list.forEach(function (p, i) { if (p.cat === cat) items.push({ p: p, i: i }); });
       if (!items.length) return;
+      items.sort(function (a, b) { return (b.p.hv ? 1 : 0) - (a.p.hv ? 1 : 0); }); // HV models first
       html += '<div class="cat-head"><span>' + esc(tr(I18N[cat === "battery" ? "catBattery" : "catInverter"], l)) + "</span></div>";
       items.forEach(function (x) { html += cardHTML(x.p, x.i, l); });
     });
